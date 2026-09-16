@@ -13,7 +13,7 @@
 - [TG-канал](https://t.me/logovo_data)
 - [grisha.bondarenko76@gmail.com](mailto:grisha.bondarenko76@gmail.com)
 
-### 🛠️ Стек
+### 🛠️ Мой стек
 
 **Python**  
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -41,4 +41,3 @@
 <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gregory-Bondarenko&layout=compact&theme=dark&hide_border=true&langs_count=8" />
-</p>
