@@ -2,13 +2,16 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=4C9AFF&center=true&vCenter=true&width=440&lines=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9+%F0%9F%91%8B" alt="Typing SVG" />
 </p>
 
-<h3 align="center">Data Analyst @ МТС Web Services</h3>
-
-### 🎓 О себе
+### 🎓 О себе:
 
 - Аналитик данных в **МТС Web Services** (ML-команда DSP)
-- Студент **РАНХиГС '27** — Прикладная информатика, Анализ данных, Data Science
-- 🌐 [gregory-bondarenko.ru](https://gregory-bondarenko.ru) · 💬 [Telegram](https://t.me/Bondarenko_Gregory) · 📢 [TG-канал](https://t.me/logovo_data) · 📧 [grisha.bondarenko76@gmail.com](mailto:grisha.bondarenko76@gmail.com)
+- Студент **РАНХиГС '27** - Прикладная информатика, Анализ данных, Data Science
+
+### 💬 Мои соц. сети:
+- [gregory-bondarenko.ru](https://gregory-bondarenko.ru)
+- [Telegram](https://t.me/Bondarenko_Gregory)
+- [TG-канал](https://t.me/logovo_data)
+- [grisha.bondarenko76@gmail.com](mailto:grisha.bondarenko76@gmail.com)
 
 ### 🛠️ Стек
 
@@ -37,10 +40,5 @@
 <img src="https://img.shields.io/badge/A%2FB_testing-4C9AFF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-
-### 📈 GitHub-статистика
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Gregory-Bondarenko&show_icons=true&theme=dark&hide_border=true&count_private=true" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gregory-Bondarenko&layout=compact&theme=dark&hide_border=true&langs_count=8" />
 </p>
