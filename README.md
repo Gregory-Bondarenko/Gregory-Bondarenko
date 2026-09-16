@@ -40,4 +40,3 @@
 <img src="https://img.shields.io/badge/A%2FB_testing-4C9AFF?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
 <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gregory-Bondarenko&layout=compact&theme=dark&hide_border=true&langs_count=8" />
