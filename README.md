@@ -1,42 +1,43 @@
+<h1 align="center">Григорий Бондаренко</h1>
+<p align="center">Аналитик данных, Москва</p>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=4C9AFF&center=true&vCenter=true&width=440&lines=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%B8%D0%B9+%F0%9F%91%8B" alt="Typing SVG" />
+  <a href="https://gregory-bondarenko.ru">Портфолио</a> ·
+  <a href="https://t.me/logovo_data">ЛОГОВО.DATA</a> ·
+  <a href="https://t.me/Bondarenko_Gregory">Телеграм</a> ·
+  <a href="mailto:grisha.bondarenko76@gmail.com">Почта</a>
 </p>
 
-### 🎓 О себе:
+### О себе
 
-- Аналитик данных в **МТС Web Services** (ML-команда DSP)
-- Студент **РАНХиГС '27** - Прикладная информатика, Анализ данных, Data Science
+Аналитик данных в МТС Web Services, ML-команда DSP. Работаю по трём направлениям: антифрод, медийная и перформанс-реклама. Основные задачи: A/B-тесты калибровок и моделей, поиск признаков фрода в трафике, feature engineering и ad-hoc аналитика на Python, PySpark и SQL.
 
-### 💬 Мои соц. сети:
-- [gregory-bondarenko.ru](https://gregory-bondarenko.ru)
-- [Telegram](https://t.me/Bondarenko_Gregory)
-- [TG-канал](https://t.me/logovo_data)
-- [grisha.bondarenko76@gmail.com](mailto:grisha.bondarenko76@gmail.com)
+Студент РАНХиГС, Прикладная информатика, профиль «Анализ данных», выпуск 2027. До МТС: аналитик в NLP-стартапе Tomoru и школа аналитики DWH в Т1.
 
-### 🛠️ Мой стек:
+### Проекты
 
-**Python**  
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" />
-<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-<img src="https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge" />
+| Проект | О чём | Стек |
+|---|---|---|
+| [changellenge-cup_it-mts](https://github.com/Gregory-Bondarenko/changellenge-cup_it-mts) | Единая модель высотности зданий Санкт-Петербурга для планирования сети базовых станций. Финал Changellenge Cup IT 2026, кейс МТС. Моя часть: аналитический модуль и кластеризация города по зонам сложности покрытия | Python, GeoPandas, H3, LightGBM, KMeans |
+| [Educational-projects](https://github.com/Gregory-Bondarenko/Educational-projects) | Учебные работы 1–4 курса и курсов Skillbox, от базового Python до анализа данных и хранилищ | Python, SQL, Pandas |
+| [gregory-bondarenko.github.io](https://github.com/Gregory-Bondarenko/gregory-bondarenko.github.io) | Исходники сайта-портфолио | HTML, CSS, JS |
 
-**SQL и базы данных**  
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black" />
-<img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-<img src="https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black" />
+### Стек
 
-**BI**  
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/Apache_Superset-2A363B?style=for-the-badge" />
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,postgres,sklearn,git,github&theme=dark" alt="Python, PostgreSQL, scikit-learn, Git, GitHub" />
+  </a>
+</p>
 
-**Другое**  
-<img src="https://img.shields.io/badge/A%2FB_testing-4C9AFF?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
+**Python:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn, CatBoost, LightGBM
+
+**Данные и хранилища:** PostgreSQL, ClickHouse, PySpark, Hadoop
+
+**BI:** Power BI, Apache Superset
+
+**Методы:** A/B-тесты, матстат и теория вероятностей, feature engineering, работа с LLM
+
+### Где ещё пишу
+
+Телеграм-канал [ЛОГОВО.DATA](https://t.me/logovo_data): заметки о работе аналитика в AdTech, разборы задач и инструментов.
