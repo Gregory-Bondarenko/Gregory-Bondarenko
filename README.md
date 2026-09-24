@@ -21,6 +21,5 @@
 | [gregory-bondarenko.github.io](https://github.com/Gregory-Bondarenko/gregory-bondarenko.github.io) | Исходники сайта-портфолио | HTML, CSS, JS |
 
 <p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=Gregory-Bondarenko&locale=ru&show_icons=true&hide_border=true&hide_title=true&bg_color=0d1117&text_color=8b949e&icon_color=58a6ff&ring_color=58a6ff" alt="Статистика GitHub" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=Gregory-Bondarenko&locale=ru&layout=compact&langs_count=6&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" alt="Языки" />
+  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/output/snake.svg" alt="Контрибьюшены" />
 </p>
