@@ -2,6 +2,10 @@
 
 <h3 align="center">Аналитик данных, Москва</h3>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/notebook.svg" alt="Общая информация, работа и достижения" />
+</p>
+
 <h3 align="center">
   <a href="https://gregory-bondarenko.ru">Сайт-визитка</a>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,7 +29,3 @@
 | [changellenge-cup_it-mts](https://github.com/Gregory-Bondarenko/changellenge-cup_it-mts) | Кейс финала Changellenge Cup IT 2026 | Завершён |
 | [gregory-bondarenko.github.io](https://github.com/Gregory-Bondarenko/gregory-bondarenko.github.io) | Сайт-визитка | Постоянно пополняется |
 | [gardemarines.github.io](https://github.com/Gregory-Bondarenko/gardemarines.github.io) | Сайт-презентация результатов кибер-турнира WOWL | Завершён |
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/notebook.svg" alt="Общая информация, работа и достижения" />
-</p>
