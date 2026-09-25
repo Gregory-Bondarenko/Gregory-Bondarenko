@@ -16,16 +16,16 @@
   <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/stack.svg" alt="Jupyter, Python, Pandas, NumPy, Scikit-learn, CatBoost, Matplotlib, Seaborn, Plotly, Power BI, Superset, PostgreSQL, ClickHouse, PySpark, Hadoop, Git, A/B-тесты, Google Sheets, Excel" />
 </p>
 
-### Репозитории
+### Навигация
 
 | Репозиторий | О чём | Статус |
 |---|---|---|
-| [Educational-projects](https://github.com/Gregory-Bondarenko/Educational-projects) | Сборник учебных проектов 1–4 курса | Постоянно пополняется |
+| [Educational-projects](https://github.com/Gregory-Bondarenko/Educational-projects) | Сборник учебных проектов: лабораторные, практические, курсовые и т. д. | Постоянно пополняется |
 | [tablebench](https://github.com/Gregory-Bondarenko/tablebench) | Исследование инструментов обработки табличных данных: pandas, Polars, DuckDB и PySpark | Завершён |
-| [changellenge-cup_it-mts](https://github.com/Gregory-Bondarenko/changellenge-cup_it-mts) | Кейс финала Changellenge Cup IT 2026: единая модель высотности зданий для планирования сети базовых станций | Завершён |
-| [gregory-bondarenko.github.io](https://github.com/Gregory-Bondarenko/gregory-bondarenko.github.io) | Исходники сайта-визитки | Постоянно пополняется |
+| [changellenge-cup_it-mts](https://github.com/Gregory-Bondarenko/changellenge-cup_it-mts) | Кейс финала Changellenge Cup IT 2026 | Завершён |
+| [gregory-bondarenko.github.io](https://github.com/Gregory-Bondarenko/gregory-bondarenko.github.io) | Сайт-визитка | Постоянно пополняется |
 | [gardemarines.github.io](https://github.com/Gregory-Bondarenko/gardemarines.github.io) | Сайт-презентация результатов кибер-турнира WOWL | Завершён |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/output/snake.svg" alt="Контрибьюшены" />
+  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/profile-3d-contrib/profile-night-green.svg" alt="Активность на GitHub" />
 </p>
