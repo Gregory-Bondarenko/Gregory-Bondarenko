@@ -27,5 +27,5 @@
 | [gardemarines.github.io](https://github.com/Gregory-Bondarenko/gardemarines.github.io) | Сайт-презентация результатов кибер-турнира WOWL | Завершён |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/profile-3d-contrib/profile-night-green.svg" alt="Активность на GitHub" />
+  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/notebook.svg" alt="Общая информация, работа и достижения" />
 </p>
