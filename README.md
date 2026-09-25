@@ -2,10 +2,6 @@
 
 <h3 align="center">Аналитик данных, Москва</h3>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/notebook.svg" alt="Общая информация, работа и достижения" />
-</p>
-
 <h3 align="center">
   <a href="https://gregory-bondarenko.ru">Сайт-визитка</a>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -15,6 +11,10 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="mailto:grisha.bondarenko76@gmail.com">Почта</a>
 </h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/notebook.svg" alt="Общая информация, работа и достижения" />
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/stack.svg" alt="Jupyter, Python, Pandas, NumPy, Scikit-learn, CatBoost, Matplotlib, Seaborn, Plotly, Power BI, Superset, PostgreSQL, ClickHouse, PySpark, Hadoop, Git, A/B-тесты, Google Sheets, Excel" />
