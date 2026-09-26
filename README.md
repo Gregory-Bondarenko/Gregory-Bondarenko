@@ -1,16 +1,11 @@
 <h1 align="center">Григорий Бондаренко</h1>
 
-<h3 align="center">Аналитик данных, Москва</h3>
-
-<h3 align="center">
-  <a href="https://gregory-bondarenko.ru">Сайт-визитка</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://t.me/Bondarenko_Gregory">ТГ</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://t.me/logovo_data">ТГ-канал</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:grisha.bondarenko76@gmail.com">Почта</a>
-</h3>
+<p align="center">
+  <a href="https://gregory-bondarenko.ru"><img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/assets/links/site.svg" alt="Сайт-визитка" /></a>
+  <a href="https://t.me/Bondarenko_Gregory"><img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/assets/links/telegram.svg" alt="Telegram" /></a>
+  <a href="https://t.me/logovo_data"><img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/assets/links/channel.svg" alt="ТГ-канал" /></a>
+  <a href="mailto:grisha.bondarenko76@gmail.com"><img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/assets/links/mail.svg" alt="Почта" /></a>
+</p>
 
 ### Обо мне
 

@@ -1,7 +1,7 @@
 const si = require('simple-icons');
 const fs = require('fs');
 
-const TILE = 78, ICON = 30, GAP = 10, RADIUS = 14, LABEL_GAP = 24, ROW_GAP = 22;
+const TILE = 100, ICON = 40, GAP = 12, RADIUS = 16, LABEL_GAP = 28, ROW_GAP = 24;
 const TILE_BG = '#161b22', TILE_STROKE = '#2a3038';
 const GROUP_COLOR = '#8b949e', NAME_COLOR = '#c9d1d9';
 const MONO = "'Fira Code','DejaVu Sans Mono',monospace";
@@ -67,14 +67,14 @@ function tile(item, x, y) {
     `<title>${name}</title>`,
     `<rect x="${x}" y="${y}" width="${TILE}" height="${TILE}" rx="${RADIUS}" fill="${TILE_BG}" stroke="${TILE_STROKE}" stroke-width="1"/>`,
   ];
-  const cx = x + TILE / 2, iconTop = y + 15;
+  const cx = x + TILE / 2, iconTop = y + 20;
   if (icon) {
     const s = ICON / 24;
     parts.push(`<g transform="translate(${cx - ICON / 2} ${iconTop}) scale(${s})"><path d="${icon.path}" fill="${fill}"/></g>`);
   } else {
-    parts.push(`<text x="${cx}" y="${iconTop + ICON / 2}" fill="${fill}" font-family="${MONO}" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="central">${item.t}</text>`);
+    parts.push(`<text x="${cx}" y="${iconTop + ICON / 2}" fill="${fill}" font-family="${MONO}" font-size="19" font-weight="700" text-anchor="middle" dominant-baseline="central">${item.t}</text>`);
   }
-  parts.push(`<text x="${cx}" y="${y + TILE - 13}" fill="${NAME_COLOR}" font-family="${MONO}" font-size="9" text-anchor="middle" dominant-baseline="central">${name}</text>`);
+  parts.push(`<text x="${cx}" y="${y + TILE - 17}" fill="${NAME_COLOR}" font-family="${MONO}" font-size="12" text-anchor="middle" dominant-baseline="central">${name}</text>`);
   return `<g>${parts.join('')}</g>`;
 }
 
@@ -84,7 +84,7 @@ const h = GROUPS.length * (LABEL_GAP + TILE) + (GROUPS.length - 1) * ROW_GAP;
 
 let y = 0;
 const body = GROUPS.map(g => {
-  const label = `<text x="2" y="${y + 10}" fill="${GROUP_COLOR}" font-family="${MONO}" font-size="10" font-weight="600" letter-spacing="1.4">${g.title}</text>`;
+  const label = `<text x="2" y="${y + 13}" fill="${GROUP_COLOR}" font-family="${MONO}" font-size="12.5" font-weight="600" letter-spacing="1.4">${g.title}</text>`;
   const tiles = g.items.map((item, c) => tile(item, c * (TILE + GAP), y + LABEL_GAP)).join('');
   y += LABEL_GAP + TILE + ROW_GAP;
   return label + tiles;
