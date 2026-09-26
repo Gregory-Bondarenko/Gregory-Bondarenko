@@ -10,7 +10,8 @@ CW = W - X0 - PAD             # ширина содержимого
 BG, STROKE = "#161b22", "#2a3038"
 CODE_BG, CODE_STROKE = "#0d1117", "#30363d"
 C_TEXT, C_DIM, C_HEAD = "#c9d1d9", "#8b949e", "#e6edf3"
-ROW_ALT = "#1b2029"
+ROW_ALT = "#1e242d"
+ROW_SEP, GROUP_SEP = "#262c35", "#3d444f"
 SYN = {"kw": "#ff7b72", "str": "#a5d6ff", "fn": "#d2a8ff", "attr": "#79c0ff", "p": "#c9d1d9"}
 
 MONO = "ui-monospace,'SFMono-Regular','JetBrains Mono','DejaVu Sans Mono',Consolas,monospace"
@@ -21,39 +22,33 @@ VAR = "Gregory_Bondarenko_CV"
 CELLS = [
     {
         "code": [
-            [("import", "kw"), (" json", "p")],
             [("import", "kw"), (" pandas ", "p"), ("as", "kw"), (" pd", "p")],
             [],
-            [(VAR, "p"), (" = json.", "p"), ("load", "fn"), ("(", "p"), ("open", "fn"), ("(", "p"),
-             ('"cv.json"', "str"), (", encoding=", "p"), ('"utf-8"', "str"), ("))", "p")],
-            [],
-            [("(pd.", "p"), ("json_normalize", "fn"), ("(", "p"), (VAR, "p"), ("[", "p"), ('"Общее"', "str"), ("]).T", "p")],
-            [("    .", "p"), ("sort_index", "fn"), ("(key=", "p"), ("lambda", "kw"), (" i: ~i.str.", "p"), ("contains", "fn"),
-             ("(", "p"), ('"."', "str"), (", regex=", "p"), ("False", "kw"), ("), kind=", "p"), ('"stable"', "str"), (")", "p")],
-            [("    .", "p"), ("set_axis", "fn"), ("([", "p"), ('"Значение"', "str"), ("], axis=", "p"), ("1", "kw"), (")", "p")],
-            [("    .", "p"), ("rename_axis", "fn"), ("(", "p"), ('"Ключ"', "str"), ("))", "p")],
+            [("pd.", "p"), ("read_json", "fn"), ("(", "p"), ('"about.json"', "str"), (", typ=", "p"), ('"series"', "str"),
+             (").", "p"), ("rename_axis", "fn"), ("(", "p"), ('"Ключ"', "str"), (").", "p"), ("to_frame", "fn"),
+             ("(", "p"), ('"Значение"', "str"), (")", "p")],
         ],
         "idx": 1,
-        "cols": [("", 214), ("Значение", 0)],
+        "cols": [("", 240), ("Значение", 0)],
         "head2": ["Ключ", ""],
-        # вложенные ключи json_normalize ставит в конец, sort_index поднимает их наверх
+        # порядок строк как в about.json
         "rows": [
-            ["Образование.Бакалавриат", "РАНХиГС'27"],
+            ["Образование.Бакалавриат", "РАНХиГС'27 - Прикладная информатика"],
             ["Образование.Магистратура", "-"],
-            ["Профиль", "Анализ данных, Продуктовая аналитика, Data Science"],
+            ["Профиль", "Data Analytics, Data Science"],
             ["Страна", "Россия"],
             ["Город", "Москва"],
-            ["Языки", "Русский, Английский (B1-B2), Турецкий (A1)"],
+            ["Языки", "Русский, English (B1-B2), Türkçe (A1)"],
         ],
     },
     {
         "code": [
-            [("(pd.", "p"), ("DataFrame", "fn"), ("(", "p"), (VAR, "p"), ("[", "p"), ('"Опыт"', "str"), ("])", "p")],
-            [("    .", "p"), ("set_index", "fn"), ("([", "p"), ('"Тип"', "str"), (", ", "p"), ('"Год"', "str"), ("]))", "p")],
+            [("pd.", "p"), ("read_json", "fn"), ("(", "p"), ('"experience.json"', "str"), (").", "p"),
+             ("set_index", "fn"), ("([", "p"), ('"Тип"', "str"), (", ", "p"), ('"Год"', "str"), ("])", "p")],
         ],
         "idx": 2,
         "groups": True,
-        "cols": [("", 118), ("", 60), ("Описание", 0)],
+        "cols": [("", 128), ("", 66), ("Описание", 0)],
         "head2": ["Тип", "Год", ""],
         "rows": [
             ["Работа", "2026", "МТС Web Services, аналитик данных в команде ML DSP"],
@@ -61,6 +56,9 @@ CELLS = [
             ["Школы", "2026", "Кейс-Лаб ИТ КоР, Росатом"],
             ["", "2025", "Школа аналитики DWH, IT-холдинг Т1"],
             ["Хакатоны", "2026", "Финалист Changellenge Cup IT"],
+            ["", "2026", "Участник Нефтекод от ИТМО & Газпром"],
+            ["", "2026", "Участник Градиент роста от ВШЭ & X5 Tech"],
+            ["", "2026", "Участник Альфа-Будущее от Альфа-Банка"],
         ],
     },
 ]
@@ -70,7 +68,7 @@ CELLS = [
 T0, RUN, ROW_STEP, GAP = 0.5, 0.7, 0.11, 0.4
 SHIFT = 0.45                 # плавный сдвиг ячеек вниз, когда появляется вывод
 CHAR_W = 13 * 0.602
-LINE_H, ROW_H, HEAD_H, HEAD2_H = 20, 23, 24, 18
+LINE_H, ROW_H, HEAD_H, HEAD2_H = 20, 28, 30, 18
 CAP = 7                      # высота скруглённых «шапок» поля ввода
 OUT_GAP, CELL_GAP = 10, 18
 
@@ -160,7 +158,7 @@ def shift_anim(name, deps):
 # ---------- проход 2: вывод SVG ----------
 css = [
     f".m{{font-family:{MONO};font-size:13px;white-space:pre}}",
-    f".s{{font-family:{SANS};font-size:12px}}",
+    f".s{{font-family:{SANS};font-size:13.5px}}",
     ".h{font-weight:600}",
     ".o{opacity:0;animation:show .55s cubic-bezier(.2,.7,.2,1) forwards}",
     ".x{animation:hide .01s linear forwards}",
@@ -236,26 +234,30 @@ for c in cells:
         x += w
     g = [f'<g class="o" style="animation-delay:{tt:.2f}s">']
     for (name, _), cx in zip(cell["cols"], xs):
-        g.append(f'<text class="s h" x="{cx + 6}" y="{yy + 17}" fill="{C_HEAD}">{escape(name)}</text>')
+        g.append(f'<text class="s h" x="{cx + 6}" y="{yy + 20}" fill="{C_HEAD}">{escape(name)}</text>')
     hh = HEAD_H
     if cell.get("head2"):
         # имена уровней индекса в той же строке, что и названия колонок
         for name, cx in zip(cell["head2"], xs):
             if name:
-                g.append(f'<text class="s h" x="{cx + 6}" y="{yy + 17}" fill="{C_HEAD}">{escape(name)}</text>')
+                g.append(f'<text class="s h" x="{cx + 6}" y="{yy + 20}" fill="{C_HEAD}">{escape(name)}</text>')
     g.append(f'<line x1="{X0 + 4}" y1="{yy + hh}" x2="{X0 + CW}" y2="{yy + hh}" stroke="{CODE_STROKE}"/></g>')
     out += g
     yy += hh
     for r, row in enumerate(cell["rows"]):
         g = [f'<g class="o" style="animation-delay:{tt + (r + 1) * ROW_STEP:.2f}s">']
-        if cell.get("groups"):
-            if r > 0 and row[0]:
-                g.append(f'<line x1="{X0 + 4}" y1="{yy}" x2="{X0 + CW}" y2="{yy}" stroke="{CODE_STROKE}"/>')
-        elif r % 2 == 1:
-            g.append(f'<rect x="{X0 + 4}" y="{yy}" width="{CW - 4}" height="{ROW_H}" fill="{ROW_ALT}"/>')
+        if r % 2 == 1:          # зебра, как у DataFrame в JupyterLab, одинаково в обеих таблицах
+            # у сгруппированной таблицы ячейка группы общая на все строки, зебра её не задевает
+            sx = xs[1] if cell.get("groups") else X0 + 4
+            g.append(f'<rect x="{sx}" y="{yy}" width="{X0 + CW - sx}" height="{ROW_H}" fill="{ROW_ALT}"/>')
+        if r > 0:
+            # разделитель строк; граница группы заметнее и на всю ширину
+            new_group = cell.get("groups") and row[0]
+            x1 = X0 + 4 if (new_group or not cell.get("groups")) else xs[1]
+            g.append(f'<line x1="{x1}" y1="{yy}" x2="{X0 + CW}" y2="{yy}" stroke="{GROUP_SEP if new_group else ROW_SEP}"/>')
         for k, (val, cx) in enumerate(zip(row, xs)):
             is_idx = k < cell.get("idx", 1)
-            g.append(f'<text class="{"s h" if is_idx else "s"}" x="{cx + 6}" y="{yy + 15.5}" fill="{C_DIM if is_idx else C_TEXT}">{escape(val)}</text>')
+            g.append(f'<text class="{"s h" if is_idx else "s"}" x="{cx + 6}" y="{yy + ROW_H / 2 + 5}" fill="{C_DIM if is_idx else C_TEXT}">{escape(val)}</text>')
         g.append("</g>")
         out += g
         yy += ROW_H
