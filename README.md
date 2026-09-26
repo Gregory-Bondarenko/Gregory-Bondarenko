@@ -25,6 +25,7 @@
 |---|---|---|
 | [Educational-projects](https://github.com/Gregory-Bondarenko/Educational-projects) | Сборник учебных проектов: лабораторные, практические, курсовые и т. д. | Постоянно пополняется |
 | [gregory-bondarenko.github.io](https://github.com/Gregory-Bondarenko/gregory-bondarenko.github.io) | Сайт-визитка: [gregory-bondarenko.ru](https://gregory-bondarenko.ru) | Постоянно пополняется |
+| [rosatom-case-lab](https://github.com/Gregory-Bondarenko/rosatom-case-lab) | Кейс-лаборатория по ML в рамках ИТ КоР от Росатома | Активен |
 | [tablebench](https://github.com/Gregory-Bondarenko/tablebench) | Исследование инструментов обработки табличных данных: pandas, Polars, DuckDB и PySpark | Завершён |
 | [changellenge-cup_it-mts](https://github.com/Gregory-Bondarenko/changellenge-cup_it-mts) | Кейс финала Changellenge Cup IT 2026 | Завершён |
 | [gardemarines.github.io](https://github.com/Gregory-Bondarenko/gardemarines.github.io) | Сайт-презентация результатов кибер-турнира WOWL | Завершён |
