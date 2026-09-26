@@ -12,6 +12,8 @@
   <a href="mailto:grisha.bondarenko76@gmail.com">Почта</a>
 </h3>
 
+### Обо мне
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/notebook.svg" alt="Общая информация, работа и достижения" />
 </p>
