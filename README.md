@@ -16,6 +16,8 @@
   <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/notebook.svg" alt="Общая информация, работа и достижения" />
 </p>
 
+### Стек
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Gregory-Bondarenko/Gregory-Bondarenko/main/stack.svg" alt="Jupyter, Python, Pandas, NumPy, Scikit-learn, CatBoost, Matplotlib, Seaborn, Plotly, Power BI, Superset, PostgreSQL, ClickHouse, PySpark, Hadoop, Git, A/B-тесты, Google Sheets, Excel" />
 </p>
