@@ -263,8 +263,13 @@ for c in cells:
     above |= own | {("out", n)}
 
 
+GROW_CARD = False            # True: внешняя карточка растёт вместе с содержимым
+
+
 def card():
-    """Внешняя карточка растёт вместе с содержимым: шапка, растущая середина, низ."""
+    """Внешняя карточка: статичная или растущая вместе с содержимым."""
+    if not GROW_CARD:
+        return [f'<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="14" fill="{BG}" stroke="{STROKE}"/>']
     allsrc = {src for src, *_ in events}
     R = 14
     mid = H - 2 * R
